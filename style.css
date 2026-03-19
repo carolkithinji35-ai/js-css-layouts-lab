@@ -11,25 +11,25 @@
   padding: 1em;
   border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   text-align: center;
   transition: transform 0.3s;
 }
-.cat-breed:hover{
+.cat-breed:hover {
   transform: scale(1.05);
 }
-.cat-breed img{
+.cat-breed img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
 }
-.cat-breed h3{
+.cat-breed h3 {
   margin: 0.5em 0;
 }
-.cat-breed p{
+.cat-breed p {
   margin: 0.5em 0 1em;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .cat-container{
     flex-direction: column;
     align-items: center;
